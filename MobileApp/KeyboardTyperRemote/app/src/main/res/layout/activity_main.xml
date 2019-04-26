@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+
+    tools:context="com.example.reddark.keyboardtyperremote.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rowCount="3"
+            android:columnCount="3"
+            >
+
+            <ImageButton
+
+                android:scaleType="fitCenter"
+                android:src="@drawable/arrow"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:rotation="270"
+                />
+            <ImageButton
+                android:scaleType="fitCenter"
+                android:src="@drawable/arrow"
+                android:text="DOWN"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:rotation="90"/>
+            <ImageButton
+                android:scaleType="fitCenter"
+                android:src="@drawable/arrow"
+                android:text="RIGHT"
+                android:layout_column="2"
+                android:layout_row="1"
+                android:layout_height="70dp"
+                android:layout_width="70dp"/>
+            <ImageButton
+                android:scaleType="fitCenter"
+                android:src="@drawable/arrow"
+                android:rotation="180"
+                android:text="LEFT"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:layout_height="70dp"
+                android:layout_width="70dp"/>
+
+        </GridLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+    </RelativeLayout>
+</LinearLayout>

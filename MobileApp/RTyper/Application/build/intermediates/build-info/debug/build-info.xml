@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="26"
+    build-mode="FULL"
+    density="420dpi"
+    format="10"
+    plugin-version="3.0.1"
+    timestamp="1523986409464"
+    token="4036037420302740078"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="2092" />
+    <task
+        name="verifier"
+        duration="994" />
+
+    <artifact
+        location="C:\Users\ReDDarK\Documents\coding\Android\RTyper\Application\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
+
+    <build
+        build-mode="FULL"
+        timestamp="1523986409464"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\ReDDarK\Documents\coding\Android\RTyper\Application\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+
+</instant-run>
